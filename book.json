@@ -1,53 +1,20 @@
 ﻿{
-  "title": "Tebex Script DokÃ¼mantasyonu",
-  "description": "Profesyonel Tebex Script DokÃ¼mantasyonu",
-  "author": "Sizin AdÄ±nÄ±z",
+  "title": "Tebex Script Dokümantasyonu",
+  "description": "Profesyonel Tebex Script Dokümantasyonu",
+  "author": "Sizin Adınız",
   "language": "tr",
-  "gitbook": "3.2.3",
-  "root": "./",
   "structure": {
     "readme": "README.md",
     "summary": "SUMMARY.md"
   },
   "plugins": [
-    "theme-comscore",
-    "theme-default",
-    "livereload",
-    "search",
-    "sharing",
-    "fontsettings",
-    "lunr"
+    "theme-default"
   ],
   "pluginsConfig": {
     "theme-default": {
-      "showLevel": true,
       "styles": {
-        "website": "styles/website.css",
-        "ebook": "styles/ebook.css",
-        "pdf": "styles/pdf.css",
-        "mobi": "styles/mobi.css",
-        "epub": "styles/epub.css"
+        "website": "styles/website.css"
       }
-    },
-    "sharing": {
-      "facebook": true,
-      "twitter": true,
-      "google": false,
-      "weibo": false,
-      "instapaper": false,
-      "vk": false,
-      "all": [
-        "facebook", "twitter", "google"
-      ]
-    },
-    "fontsettings": {
-      "theme": "white",
-      "family": "sans",
-      "size": 2
     }
-  },
-  "variables": {
-    "themeColor": "#4F46E5",
-    "themeColorDark": "#4338CA"
   }
 }
