@@ -1,0 +1,79 @@
+═══════════════════════════════════════════════════════════
+  GITBOOK IMPORT - GITHUB İLE (EN KOLAY YÖNTEM)
+═══════════════════════════════════════════════════════════
+
+❌ SORUN: ZIP dosyası GitBook tarafından kabul edilmiyor
+
+✅ ÇÖZÜM: GitHub üzerinden import yapın (5 dakika)
+
+───────────────────────────────────────────────────────────
+ADIM 1: GITHUB REPOSITORY OLUŞTUR
+───────────────────────────────────────────────────────────
+
+1. https://github.com adresine gidin
+2. Giriş yapın (veya ücretsiz hesap oluşturun)
+3. Sağ üstten "+" butonuna tıklayın
+4. "New repository" seçin
+5. Repository adı: tebex-gitbook
+6. "Public" seçin (GitBook için gerekli)
+7. "Create repository" butonuna tıklayın
+
+───────────────────────────────────────────────────────────
+ADIM 2: DOSYALARI GITHUB'A YÜKLE
+───────────────────────────────────────────────────────────
+
+1. Oluşturduğunuz repository'de "uploading an existing file" linkine tıklayın
+2. VEYA "Add file" > "Upload files" seçin
+3. Şu klasördeki TÜM dosyaları seçin:
+   C:\Users\Monster\Desktop\Tebex-GitBook
+   
+4. Dosyaları sürükle-bırak yapın:
+   - book.json
+   - README.md
+   - SUMMARY.md
+   - .gitignore
+   - styles klasörünü (içindeki website.css ile)
+
+5. Altta "Commit changes" butonuna tıklayın
+6. Mesaj yazın: "Initial commit"
+7. "Commit changes" butonuna tıklayın
+
+───────────────────────────────────────────────────────────
+ADIM 3: GITBOOK'DA GITHUB'ı BAĞLA
+───────────────────────────────────────────────────────────
+
+1. https://www.gitbook.com adresine gidin
+2. Giriş yapın (veya ücretsiz hesap oluşturun)
+3. "Create" > "New Space" tıklayın
+4. Space adı verin (örn: Tebex Script Docs)
+
+5. Sol menüden "Settings" > "Integrations" tıklayın
+6. "GitHub" seçeneğini bulun
+7. "Connect GitHub" butonuna tıklayın
+8. GitHub hesabınızı bağlayın (izin verin)
+
+9. Repository listesinden "tebex-gitbook" seçin
+10. "Import" butonuna tıklayın
+
+───────────────────────────────────────────────────────────
+✅ TAMAMLANDI!
+───────────────────────────────────────────────────────────
+
+GitBook otomatik olarak dosyalarınızı import edecek.
+Artık GitHub'daki değişiklikler otomatik olarak GitBook'a yansır.
+
+───────────────────────────────────────────────────────────
+ALTERNATİF: MANUEL YÜKLEME
+───────────────────────────────────────────────────────────
+
+Eğer GitHub kullanmak istemiyorsanız:
+
+1. GitBook'da yeni Space oluşturun
+2. Her dosyayı tek tek yükleyin:
+   - book.json
+   - README.md  
+   - SUMMARY.md
+   - styles klasörü oluşturup website.css yükleyin
+
+ZIP yerine dosyaları tek tek yüklemeniz gerekiyor.
+

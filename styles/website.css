@@ -1,0 +1,193 @@
+﻿/*
+ * Profesyonel GitBook Tema Stilleri
+ * Modern ve temiz tasarÄ±m
+ */
+
+/* Genel Stil AyarlarÄ± */
+.book {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #2d3748;
+  line-height: 1.7;
+}
+
+/* BaÅŸlÄ±k Stilleri */
+.book .book-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #5a67d8;
+}
+
+.book .book-header .btn {
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.book .book-header .btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.book .book-header h1 {
+  color: #ffffff;
+  font-weight: 600;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Ä°Ã§erik AlanÄ± */
+.book .book-body {
+  background: #f7fafc;
+}
+
+.book .book-body .page-wrapper .page-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 60px;
+  background: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* BaÅŸlÄ±klar */
+.markdown-section h1 {
+  color: #2d3748;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.3em;
+  border-bottom: 3px solid #667eea;
+}
+
+.markdown-section h2 {
+  color: #4a5568;
+  font-weight: 600;
+  font-size: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.markdown-section h3 {
+  color: #718096;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-top: 1.3em;
+  margin-bottom: 0.6em;
+}
+
+/* Linkler */
+.markdown-section a {
+  color: #667eea;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.markdown-section a:hover {
+  color: #764ba2;
+  border-bottom-color: #764ba2;
+}
+
+/* Kod BloklarÄ± */
+.markdown-section pre {
+  background: #2d3748;
+  border-radius: 8px;
+  padding: 1.2em;
+  overflow-x: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #667eea;
+}
+
+.markdown-section code {
+  background: #edf2f7;
+  color: #e53e3e;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+}
+
+.markdown-section pre code {
+  background: transparent;
+  color: #e2e8f0;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* Tablolar */
+.markdown-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.markdown-section table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.markdown-section table td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.markdown-section table tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+
+.markdown-section table tr:hover {
+  background-color: #edf2f7;
+}
+
+/* Yan MenÃ¼ */
+.book-summary {
+  background: #ffffff;
+  border-right: 1px solid #e2e8f0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.book-summary .book-logo {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  text-align: center;
+}
+
+.book-summary ul.summary li a {
+  color: #4a5568;
+  padding: 12px 20px;
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+}
+
+.book-summary ul.summary li a:hover {
+  background-color: #edf2f7;
+  color: #667eea;
+  border-left-color: #667eea;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .book .book-body .page-wrapper .page-inner {
+    padding: 20px;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #667eea;
+  border-radius: 5px;
+}
